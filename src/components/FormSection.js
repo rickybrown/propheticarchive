@@ -51,7 +51,6 @@ export default class FormSection extends React.Component {
                                             aria-labelledby={formHoneypotLabelId}
                                             id={formHoneypotInputId}
                                             name={formHoneypotName}
-                                            name="bot-field"
                                         />
                                     </label>
                                 </div>
