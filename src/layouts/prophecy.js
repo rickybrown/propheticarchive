@@ -29,7 +29,7 @@ export default class Blog extends React.Component {
                         {subtitle && <p className="section__subtitle">{subtitle}</p>}
                     </div>
                 </header>
-                <div className="section section--portfolio">
+                <div className="section section--showcase">
                     <div className="container container--lg">
                         <div className={`grid post-feed post-feed--col-${colNumber}`}>
                             {_.map(posts, (post, index) => (

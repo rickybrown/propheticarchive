@@ -3,7 +3,7 @@ import _ from 'lodash';
 
 import { Link, withPrefix, getPageUrl } from '../utils';
 
-export default class PortfolioItem extends React.Component {
+export default class ShowcaseItem extends React.Component {
     render() {
         const project = _.get(this.props, 'project');
         const title = _.get(project, 'title');

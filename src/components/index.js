@@ -13,8 +13,8 @@ import HeroSection from './HeroSection';
 import Layout from './Layout';
 import Icon from './Icon';
 import ImageSection from './ImageSection';
-import PortfolioItem from './PortfolioItem';
-import PortfolioSection from './PortfolioSection';
+import ShowcaseItem from './ShowcaseItem';
+import ShowcaseSection from './ShowcaseSection';
 import PostsSection from './PostsSection';
 import TestimonialsSection from './TestimonialsSection';
 import TextSection from './TextSection';
@@ -35,8 +35,8 @@ export {
     Layout,
     Icon,
     ImageSection,
-    PortfolioItem,
-    PortfolioSection,
+    ShowcaseItem,
+    ShowcaseSection,
     PostsSection,
     TestimonialsSection,
     TextSection
@@ -58,8 +58,8 @@ export default {
     Layout,
     Icon,
     ImageSection,
-    PortfolioItem,
-    PortfolioSection,
+    ShowcaseItem,
+    ShowcaseSection,
     PostsSection,
     TestimonialsSection,
     TextSection

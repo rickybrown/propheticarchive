@@ -11,14 +11,14 @@ sections:
       We are a brand and design practice. We work closely with you, your team to
       deliver inspiring work, which enables your organization to grow. [Let's
       talk](/contact/).
-  - type: portfolio_section
+  - type: showcase_section
     section_id: latest-projects
     layout_style: tiles
     title: Recent Work
     subtitle: Explore case studies
     projects_number: 6
     view_all_label: View All
-    view_all_url: portfolio
+    view_all_url: showcase
   - type: grid_section
     section_id: clients
     title: Clients
@@ -47,7 +47,7 @@ sections:
           - Research and insight
           - Business innovation and transformation
           - Brand and strategy
-          - Brand portfolio strategy
+          - Brand showcase strategy
           - Design strategy
           - Digital and experience strategy
           - Communication strategy

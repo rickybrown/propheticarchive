@@ -1,24 +1,24 @@
 import advanced from './advanced';
-import blog from './blog';
+import prophecy from './prophecy';
 import page from './page';
-import portfolio from './portfolio';
+import showcase from './showcase';
 import post from './post';
 import project from './project';
 
 export {
     advanced,
-    blog,
+    prophecy,
     page,
-    portfolio,
+    showcase,
     post,
     project
 };
 
 export default {
     advanced,
-    blog,
+    prophecy,
     page,
-    portfolio,
+    showcase,
     post,
     project
 };

@@ -1,23 +1,10 @@
 ---
-title: Our Story
+title: Prophetic Voices
+subtitle: The top voices who contribute to the Prophetic Archive
 hide_title: false
 sections:
-  - type: content_section
-    content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel
-      venenatis augue. Suspendisse tincidunt, nibh eget sodales eleifend, lectus
-      magna elementum lorem, ut bibendum tellus turpis quis risus. Vivamus
-      sagittis enim est, et semper lectus hendrerit ut.
-
-
-      In sollicitudin imperdiet turpis quis accumsan. Pellentesque euismod
-      turpis et nisi fermentum accumsan.
-    image: images/about.jpg
-    image_alt: Our team in the meeting room
   - type: grid_section
     section_id: team
-    title: The Team
-    subtitle: An optional subtitle of the section
     col_number: three
     grid_items:
       - title: Gustav Purpleson
@@ -92,7 +79,7 @@ sections:
             new_window: true
   - type: cta_section
     section_id: cta
-    title: Become a Team Player
+    title: Become a Contributor
     content: >-
       We are always looking for great people to join our team. If you are
       interested in working for Agency, please send an email to
@@ -102,8 +89,8 @@ sections:
     image_alt: Illustration
     bg_color: light
 seo:
-  title: About Us
-  description: This is the about us page
+  title: Prophetic Voices
+  description: The top voices who contribute to the Prophetic Archive
   extra:
     - name: 'og:type'
       value: website

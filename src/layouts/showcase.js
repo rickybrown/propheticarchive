@@ -4,9 +4,9 @@ import _ from 'lodash';
 import { Layout } from '../components/index';
 import { classNames, getPageUrl, Link, withPrefix } from '../utils';
 
-import PortfolioItem from '../components/PortfolioItem';
+import ShowcaseItem from '../components/ShowcaseItem';
 
-export default class Portfolio extends React.Component {
+export default class Showcase extends React.Component {
     renderProject(project, index) {
         const title = _.get(project, 'title');
         const subtitle = _.get(project, 'subtitle');
@@ -57,11 +57,11 @@ export default class Portfolio extends React.Component {
                         {subtitle && <p className="section__subtitle">{subtitle}</p>}
                     </div>
                 </header>
-                <div className="section section--portfolio">
+                <div className="section section--showcase">
                     <div className="container container--lg">
-                        <div className={`grid portfolio-feed portfolio-feed--${layoutStyle}`}>
+                        <div className={`grid showcase-feed showcase-feed--${layoutStyle}`}>
                             {_.map(projects, (project, index) => (
-                                <PortfolioItem key={index} project={project} />
+                                <ShowcaseItem key={index} project={project} />
                             ))}
                         </div>
                     </div>

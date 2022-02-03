@@ -2,9 +2,9 @@ import React from 'react';
 import _ from 'lodash';
 
 import { Link, withPrefix } from '../utils';
-import PortfolioItem from './PortfolioItem';
+import ShowcaseItem from './ShowcaseItem';
 
-export default class PortfolioSection extends React.Component {
+export default class ShowcaseSection extends React.Component {
     renderProject(project, index, projectCount, viewAllLabel, viewAllUrl) {
         if ((index === projectCount - 1) && viewAllLabel && viewAllUrl) {
             const thumbImage = _.get(project, 'thumb_image');
@@ -24,7 +24,7 @@ export default class PortfolioSection extends React.Component {
             );
         } else {
             return (
-                <PortfolioItem key={index} project={project} />
+                <ShowcaseItem key={index} project={project} />
             );
         }
     }
@@ -41,11 +41,11 @@ export default class PortfolioSection extends React.Component {
         const projectCount = _.size(projects);
 
         return (
-            <section id={sectionId} className="section section--portfolio">
+            <section id={sectionId} className="section section--showcase">
                 <div className="container container--lg">
                     {title && <h2 className="section__title line-top">{title}</h2>}
                     {subtitle && <p className="section__subtitle">{subtitle}</p>}
-                    <div className={`grid portfolio-feed portfolio-feed--${layoutStyle}`}>
+                    <div className={`grid showcase-feed showcase-feed--${layoutStyle}`}>
                         {_.map(projects, (project, index) => this.renderProject(project, index, projectCount, viewAllLabel, viewAllUrl))}
                     </div>
                 </div>

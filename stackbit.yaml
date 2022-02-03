@@ -12,7 +12,7 @@ dataDir: content/data
 pagesDir: content/pages
 pageLayoutKey: layout
 logicFields:
-  - portfolio_section.projects_number
+  - showcase_section.projects_number
   - posts_section.posts_number
 models:
   config:
@@ -169,7 +169,7 @@ models:
             - content_section
             - cta_section
             - grid_section
-            - portfolio_section
+            - showcase_section
             - posts_section
             - testimonials_section
             - form_section
@@ -177,12 +177,12 @@ models:
         name: seo
         models:
           - stackbit_page_meta
-  blog:
+  prophecy:
     type: page
-    urlPath: /blog
-    label: Blog
-    layout: blog
-    file: blog/index.md
+    urlPath: /prophecy
+    label: Prophecy
+    layout: prophecy
+    file: prophecy/index.md
     hideContent: true
     singleInstance: true
     fields:
@@ -212,12 +212,12 @@ models:
         name: seo
         models:
           - stackbit_page_meta
-  portfolio:
+  showcase:
     type: page
-    urlPath: /portfolio
-    label: Portfolio
-    layout: portfolio
-    file: portfolio/index.md
+    urlPath: /showcase
+    label: Showcase
+    layout: showcase
+    file: showcase/index.md
     hideContent: true
     singleInstance: true
     fields:
@@ -237,7 +237,7 @@ models:
       - type: enum
         name: layout_style
         label: Layout style
-        description: The style of the portfolio layout
+        description: The style of the showcase layout
         options:
           - mosaic
           - tiles
@@ -251,8 +251,8 @@ models:
     label: Page
     layout: page
     exclude:
-      - blog/**
-      - portfolio/**
+      - prophecy/**
+      - showcase/**
     fields:
       - type: string
         name: title
@@ -277,10 +277,10 @@ models:
           - stackbit_page_meta
   post:
     type: page
-    urlPath: '/blog/{slug}'
+    urlPath: '/prophecy/{slug}'
     label: Post
     layout: post
-    folder: blog
+    folder: prophecy
     fields:
       - type: string
         name: title
@@ -321,10 +321,10 @@ models:
           - stackbit_page_meta
   project:
     type: page
-    urlPath: '/portfolio/{slug}'
+    urlPath: '/showcase/{slug}'
     label: Project
     layout: project
-    folder: portfolio
+    folder: showcase
     hideContent: true
     fields:
       - type: string
@@ -343,7 +343,7 @@ models:
       - type: image
         name: thumb_image
         label: Thumbnail image
-        description: The image shown in the portfolio grid
+        description: The image shown in the showcase grid
       - type: string
         name: thumb_image_alt
         label: Thumbnail image alt text
@@ -505,9 +505,9 @@ models:
           type: model
           models:
             - action
-  portfolio_section:
+  showcase_section:
     type: object
-    label: Portfolio Section
+    label: Showcase Section
     extends:
       - section
     fields:

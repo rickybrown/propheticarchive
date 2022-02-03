@@ -1,72 +1,53 @@
 {
-    "title": "Stackbit Agency Theme",
+    "title": "Prophetic Archive",
     "path_prefix": "/",
     "color_scheme": "light",
     "accent_color": "green",
     "base_font": "fraunces",
     "header": {
-        "title": "Agency",
+        "title": "Prophetic Archive",
         "logo": "images/logo.svg",
-        "logo_alt": "Agency logo",
+        "logo_alt": "Prophetic Archive",
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Home",
-                "url": "/",
+                "label": "Prophecy",
+                "url": "/prophecy/",
                 "style": "link"
             },
             {
-                "label": "Work",
-                "url": "/portfolio/",
+                "label": "Showcase",
+                "url": "/showcase/",
                 "style": "link"
             },
             {
-                "label": "Journal",
-                "url": "/blog/",
+                "label": "Voices",
+                "url": "/voices/",
                 "style": "link"
             },
             {
-                "label": "About",
-                "url": "/about/",
-                "style": "link"
-            },
-            {
-                "label": "Contact",
-                "url": "/contact/",
+                "label": "Subscribe",
+                "url": "/subscribe/",
                 "style": "button"
             }
         ]
     },
     "footer": {
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=agency&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>",
+        "content": "&copy; <a href=\"https://propheticarchive.com\" target=\"_blank\" rel=\"noopener\">Prophetic Archive</a>, a service provided by <a href=\"https://sonsofprophets.co\" target=\"_blank\" rel=\"noopener\">Sons of Prophets</a>. All rights reserved.",
         "has_social": true,
         "social_links": [
             {
                 "label": "Twitter",
-                "url": "https://twitter.com/",
+                "url": "https://twitter.com/sonsofprophets",
                 "style": "icon",
                 "icon": "twitter",
                 "new_window": true
             },
             {
                 "label": "Instagram",
-                "url": "https://www.instagram.com/",
+                "url": "https://www.instagram.com/sonsofprophets.co",
                 "style": "icon",
                 "icon": "instagram",
-                "new_window": true
-            },
-            {
-                "label": "Dribbble",
-                "url": "https://dribbble.com/",
-                "style": "icon",
-                "icon": "dribbble",
-                "new_window": true
-            },
-            {
-                "label": "LinkedIn",
-                "url": "https://www.linkedin.com/",
-                "style": "icon",
-                "icon": "linkedin",
                 "new_window": true
             }
         ]

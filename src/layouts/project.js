@@ -4,7 +4,7 @@ import _ from 'lodash';
 import components, { Layout } from '../components/index';
 import { getPageUrl } from '../utils';
 
-import PortfolioItem from '../components/PortfolioItem';
+import ShowcaseItem from '../components/ShowcaseItem';
 
 export default class Project extends React.Component {
     renderProjectNavLinks(project, index, projects, projectCount, currentProjectUrl) {
@@ -18,9 +18,9 @@ export default class Project extends React.Component {
         const nextProject = (index < projectCount - 1) ? projects[nextIndex] : null;
 
         return (
-            <div className="grid portfolio-feed portfolio-feed--tiles">
-                {prevProject && <PortfolioItem project={prevProject} />}
-                {nextProject && <PortfolioItem project={nextProject} />}
+            <div className="grid showcase-feed showcase-feed--tiles">
+                {prevProject && <ShowcaseItem project={prevProject} />}
+                {nextProject && <ShowcaseItem project={nextProject} />}
             </div>
         );
     }
@@ -65,7 +65,7 @@ export default class Project extends React.Component {
                     </div>
                 </article>
                 {(projectCount > 1) && (
-                    <nav className="section section--portfolio">
+                    <nav className="section section--showcase">
                         <div className="container container--lg">
                             <h2 className="section__title line-top">More Projects</h2>
                             {_.map(projects, (project, index) => (

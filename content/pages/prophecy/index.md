@@ -1,32 +1,33 @@
 ---
-title: Portfolio
-subtitle: This is an optional subtitle for the portfolio page
-layout_style: mosaic
+title: Prophecy
+subtitle: 'Recent Prophecies'
+hide_title: false
+col_number: three
 seo:
-  title: Portfolio
-  description: This is the portfolio page
+  title: Prophecies
+  description: Recent Prophecies in the Prophetic Archive
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Portfolio
+      value: Journal
       keyName: property
     - name: 'og:description'
-      value: This is the portfolio page
+      value: This is the journal page
       keyName: property
     - name: 'og:image'
-      value: images/work-book-1.jpg
+      value: images/post-1.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Portfolio
+      value: Journal
     - name: 'twitter:description'
-      value: This is the portfolio page
+      value: This is the journal page
     - name: 'twitter:image'
-      value: images/work-book-1.jpg
+      value: images/post-1.jpg
       relativeUrl: true
-layout: portfolio
+layout: prophecy
 ---
